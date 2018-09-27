@@ -13,7 +13,7 @@ import sklearn
 import numpy as np
 
 
-f1 = open('C:/Users/hp/Documents/Assignment 1 NLP/rt-polaritydata/rt-polarity.pos')
+f1 = open('rt-polarity.pos')
 # The file path given above is the one in my disk system. Please change the path if you test it in your system
 s = ''
 for f in f1:
@@ -23,7 +23,7 @@ for f in f1:
 pos_list = s.split('\n')
 pos_targ = [1] * len(pos_list)
 
-f2 = open('C:/Users/hp/Documents/Assignment 1 NLP/rt-polaritydata/rt-polarity.neg')
+f2 = open('rt-polarity.neg')
 s = ''
 for f in f2:
     s = s + f
